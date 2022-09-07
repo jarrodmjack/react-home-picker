@@ -73,7 +73,7 @@ const Card = ({ data, setShowModal, setModalContent, type }) => {
         className='save-homes-button'
         ref={ref}
         onClick={handleClick}>
-        {(type === 'home' ? homes : lots).content[(data.homePlanId || data.lotId) - 1].isSaved ? `🧡` : `❤`}
+        {(type === 'home' ? homes : lots).content[(data.homePlanId || data.lotId) - 1].isSaved ? `💚` : `❤`}
       </span>
       <img
         alt='display card'
